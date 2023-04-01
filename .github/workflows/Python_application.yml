@@ -26,6 +26,6 @@ jobs:
         
     - name: Run the scripts
       env: |
-        key: ${{ secrets.key }}
+        key_list: ${{ secrets.key }}
       
       run: python fuck_jdsd.py
