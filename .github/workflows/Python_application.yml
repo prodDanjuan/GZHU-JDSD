@@ -25,7 +25,4 @@ jobs:
       run: pip3 install -r requirements.txt
         
     - name: Run the scripts
-      env: |
-        key_list: ${{ secrets.key }}
-      
       run: python fuck_jdsd.py
