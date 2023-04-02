@@ -6,7 +6,7 @@ import time
 '''
 下方填写key 需抓包  key在更换微信登录后会改变 具体有效期尚未可知
 '''
-key_list = ['']
+key_list = ['qb91MZNv8FMsqC6L5vnDKr9sXlk33glJl9vfIcx6KDOrZCvf\/N6iuCf0cJxtz8Pf']
 session = requests.session()
 headers = {
     'Host': 'jdsd.gzhu.edu.cn',
